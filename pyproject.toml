@@ -1,0 +1,16 @@
+[project]
+name = "thesishelper"
+version = "1.0.0"
+description = "A local Windows thesis workspace with evidence-grounded OpenAI assistance"
+requires-python = ">=3.11,<3.14"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

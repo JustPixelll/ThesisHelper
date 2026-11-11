@@ -1,0 +1,3 @@
+# Optional development/CI browser checks; not required to run the application.
+-r requirements.txt
+playwright==1.62.0

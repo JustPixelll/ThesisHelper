@@ -1,0 +1,5 @@
+# Optional: requires a separately installed local Tesseract executable.
+-r requirements.txt
+pypdfium2==5.14.0
+Pillow==13.0.0
+pytesseract>=0.3.13,<0.4

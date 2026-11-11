@@ -1,0 +1,9 @@
+# Tested application dependencies. Python 3.11–3.13, 64 bit.
+fastapi==0.141.1
+uvicorn==0.52.1
+httpx==0.28.1
+python-multipart==0.0.32
+pydantic==2.13.4
+pypdf==6.21.4
+python-docx==1.2.0
+numpy==2.3.5

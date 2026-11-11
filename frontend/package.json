@@ -1,0 +1,21 @@
+{
+  "name": "thesishelper-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Locally bundled ThesisHelper editor and research workspace",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check src/app.js",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@tiptap/core": "3.33.1",
+    "@tiptap/extension-table": "3.33.1",
+    "@tiptap/starter-kit": "3.33.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "happy-dom": "21.0.4"
+  }
+}
